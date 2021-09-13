@@ -1,0 +1,10 @@
+[workspace]
+members = ["hello",]
+
+[workspace.metadata.raze]
+workspace_path = "//cargo"
+gen_workspace_prefix = "remote_cargo_workspace"
+genmode = "Remote"
+default_gen_buildrs = true
+
+
